@@ -13,7 +13,7 @@ function minDivisor () {
 
     for (let i = 2; i < userNumber; i++) {
         if (userNumber % i === 0) {
-            return i;
+            return `the smallest divisor is ${i}`;
         } else if (isPrime (userNumber)){
             return 'Number is prime';
         }
